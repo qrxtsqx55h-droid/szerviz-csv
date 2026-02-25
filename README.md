@@ -14,3 +14,26 @@ Egyszerű, CSV-alapú munkalapkezelő alkalmazás autószervizek számára.
 ---
 
 ## 🏗 Projekt struktúra
+
+szerviz_csv/
+│
+├── src/
+│   ├── models.py
+│   ├── storage_csv.py
+│   ├── service.py
+│   └── main.py
+│
+├── data/
+│   └── munkalapok.csv
+│
+├── .gitignore
+└── README.md
+
+---
+
+## ▶️ Futtatás
+
+Virtuális környezet aktiválása után:
+
+```bash
+python src/main.py
